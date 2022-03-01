@@ -1,0 +1,25 @@
+body {
+    font-size: 8rem;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+@media all and (min-width: 30rem) {
+    body {
+        background-color: blueviolet;
+    }
+    .title1 {
+        color: yellowgreen;
+    }
+}
+
+@media all and (orientation: portrait) {
+    .title2 {
+        color: black;
+    }
+}
+
+@media (orientation:landscape) {
+    .title1 {
+background-color: brown    };
+}
